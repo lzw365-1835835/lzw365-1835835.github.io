@@ -1,0 +1,12 @@
+body {
+    background-color: antiquewhite;
+    max-width: 820px;
+    margin: auto;
+    padding: 20px;
+    border: dotted;
+    margin-top: 10px;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
