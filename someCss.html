@@ -5,11 +5,18 @@
         <title>Jason's Great Website</title>
     </head>
     <body>
-        <h1 style="color: blue;">Jason Li</h1>
-        <h2>About Me</h2>
-        <p>I was born in <strong>Nanjing China</strong> and lived there for the first 18 years of my life. </p>
-        <p>I am currently a senior student in the <strong>University of Washington</strong>. </p>
+        <h1>Jason Li's Website</h1>
+        <h2>About Me (Two paragraphs that each have a different font)</h2>
+        <p id="p1">I was born in <strong>Nanjing China</strong> and lived there for the first 18 years of my life. Generating random paragraphs can be an excellent way for writers to get their creative flow going at the beginning of the day. The writer has no idea what topic the random paragraph will be about when it appears. This forces the writer to use creativity to complete one of three common writing challenges. </p>
+        <p id="p2">I am currently a senior student in the <strong>University of Washington</strong>. A random paragraph can also be an excellent way for a writer to tackle writers' block. Writing block can often happen due to being stuck with a current project that the writer is trying to complete. </p>
         <hr>
+        <div id="div1">
+            <h2>Comments</h2>
+            <div>
+                <textarea style="font-family:sans-serif; width: 60%;">Please leave your comments!</textarea>
+            </div>
+            <input type="submit" value="Submit">
+        </div>
         <h2>My Favorite Sites</h2>
         <ol>
             <li>
@@ -32,16 +39,15 @@
         <h2>My Favorite Pictures</h2>
         <h3><u>Milford Sound</u> -- <em>New Zealand</em></h3>
         <a href="https://en.wikipedia.org/wiki/Milford_Sound_/_Piopiotahi">
-            <img src="https://cdn.cheapism.com/images/011618_most_beautiful_views_in_the_world_sli.max-784x410_ZXOqfVp.jpg" title="Milford Sound" style="width: 550px;" alt="Milford Sound">
+            <img src="https://cdn.cheapism.com/images/011618_most_beautiful_views_in_the_world_sli.max-784x410_ZXOqfVp.jpg" title="Milford Sound" alt="Milford Sound">
         </a>
         <h3><u>Lake Kawaguchiko</u> -- <em>Japan</em></h3>
         <a href="https://en.wikipedia.org/wiki/Lake_Kawaguchi">
-            <img src="https://cdn.cheapism.com/images/011618_most_beautiful_views_in_the_world_sli.max-784x410_wZJ2JOC.jpg" title="Lake Kawaguchiko" style="width: 550px;" alt="Lake Kawaguchiko">
+            <img src="https://cdn.cheapism.com/images/011618_most_beautiful_views_in_the_world_sli.max-784x410_wZJ2JOC.jpg" title="Lake Kawaguchiko" alt="Lake Kawaguchiko">
         </a>
-        <h2>Comments</h2>
-        <div>
-            <textarea style="font-family:sans-serif; width: 60%;">Please leave your comments!</textarea>
+        <div class="container">
+            <img id="imgGreece" src="https://cdn.cheapism.com/images/011618_most_beautiful_views_in_the_world_sli.max-420x243_PWGHLXv.jpg" alt="Greece">
+            <div class="centered">View in Greece</div>
         </div>
-            <input type="submit" value="Submit">
     </body>
 </html>
