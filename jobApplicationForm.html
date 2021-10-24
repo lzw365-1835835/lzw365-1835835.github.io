@@ -9,27 +9,29 @@
 <body>
 <div class="container">
 
-<h2>Job Application</h2>
+<h2>Computer Science and Engineering Major Application Form</h2>
 <p>&nbsp;</p>
+<p>Welcome to the application portal for Computer Science and Engineering! Please complete all parts of the form in order to be considered to be an applicant.</p>
+<p><strong>Good luck on your application!</strong></p>
 
 <form role="form" action="http://gclass.alexburner.com/formtest.php" method="post">
 
 	<fieldset class="form-horizontal" >
-		<legend>Account</legend>
+		<legend>UW Account</legend>
 		<div class="form-group">
-			<label class="col-sm-3 control-label">Email</label>
+			<label class="col-sm-3 control-label">UW Email:</label>
 			<div class="col-sm-9">
 				<input class="form-control" type="text" name="email">
 			</div>
 		</div>
 		<div class="form-group">
-			<label class="col-sm-3 control-label">Password</label>
+			<label class="col-sm-3 control-label">Password:</label>
 			<div class="col-sm-9">
 				<input class="form-control" type="password" name="password">
 			</div>
 		</div>
 		<div class="form-group">
-			<label class="col-sm-3 control-label">Repeat password</label>
+			<label class="col-sm-3 control-label">Repeat Password:</label>
 			<div class="col-sm-9">
 				<input class="form-control" type="password" name="repeat_password">
 			</div>
@@ -41,175 +43,121 @@
 	<fieldset class="form-horizontal" >
 		<legend>Personal Information</legend>
 		<div class="form-group">
-			<label class="col-sm-3 control-label">Full name</label>
+			<label class="col-sm-3 control-label">First Name:</label>
 			<div class="col-sm-9">
-				<input class="form-control" type="text" name="name">
+				<input class="form-control" type="text" name="first_name">
+			</div>
+		</div>
+        <div class="form-group">
+            <label class="col-sm-3 control-label">Last Name:</label>
+			<div class="col-sm-9">
+				<input class="form-control" type="text" name="last_name">
 			</div>
 		</div>
 		<div class="form-group">
-			<label class="col-sm-3 control-label">Street address</label>
+			<label class="col-sm-3 control-label">Year of Graduation:</label>
 			<div class="col-sm-9">
-				<input class="form-control" type="text" name="street">
-			</div>
-		</div>
-		<div class="form-group">
-			<label class="col-sm-3 control-label">City</label>
-			<div class="col-sm-9">
-				<input class="form-control" type="text" name="city">
-			</div>
-		</div>
-		<div class="form-group">
-			<label class="col-sm-3 control-label">State</label>
-			<div class="col-sm-9">
-				<select class="form-control" name="state">
-					<option value="" selected="true">Choose a State</option>
-					<option value="AL">Alabama</option>
-					<option value="AK">Alaska</option>
-					<option value="AZ">Arizona</option>
-					<option value="AR">Arkansas</option>
-					<option value="CA">California</option>
-					<option value="CO">Colorado</option>
-					<option value="CT">Connecticut</option>
-					<option value="DE">Delaware</option>
-					<option value="DC">District of Columbia</option>
-					<option value="FL">Florida</option>
-					<option value="GA">Georgia</option>
-					<option value="HI">Hawaii</option>
-					<option value="ID">Idaho</option>
-					<option value="IL">Illinois</option>
-					<option value="IN">Indiana</option>
-					<option value="IA">Iowa</option>
-					<option value="KS">Kansas</option>
-					<option value="KY">Kentucky</option>
-					<option value="LA">Louisiana</option>
-					<option value="ME">Maine</option>
-					<option value="MD">Maryland</option>
-					<option value="MA">Massachusetts</option>
-					<option value="MI">Michigan</option>
-					<option value="MN">Minnesota</option>
-					<option value="MS">Mississippi</option>
-					<option value="MO">Missouri</option>
-					<option value="MT">Montana</option>
-					<option value="NE">Nebraska</option>
-					<option value="NV">Nevada</option>
-					<option value="NH">New Hampshire</option>
-					<option value="NJ">New Jersey</option>
-					<option value="NM">New Mexico</option>
-					<option value="NY">New York</option>
-					<option value="NC">North Carolina</option>
-					<option value="ND">North Dakota</option>
-					<option value="OH">Ohio</option>
-					<option value="OK">Oklahoma</option>
-					<option value="OR">Oregon</option>
-					<option value="PA">Pennsylvania</option>
-					<option value="RI">Rhode Island</option>
-					<option value="SC">South Carolina</option>
-					<option value="SD">South Dakota</option>
-					<option value="TN">Tennessee</option>
-					<option value="TX">Texas</option>
-					<option value="UT">Utah</option>
-					<option value="VT">Vermont</option>
-					<option value="VA">Virginia</option>
-					<option value="WA">Washington</option>
-					<option value="WV">West Virginia</option>
-					<option value="WI">Wisconsin</option>
-					<option value="WY">Wyoming</option>
+				<select class="form-control" name="year_graduation">
+					<option value="" selected="true">Choose a year</option>
+					<option value="23">2023</option>
+					<option value="24">2024</option>
+					<option value="25">2025</option>
+					<option value="26">2026</option>
 				</select>
 			</div>
 		</div>
 		<div class="form-group">
-			<label class="col-sm-3 control-label">ZIP</label>
-			<div class="col-sm-9">
-				<input class="form-control" type="text" name="zip">
+			<label class="col-sm-3 control-label"">Gender:</label>
+			<div class="col-sm-9" name="gender_select">
+				<div class="radio">
+					<label>
+						<input type="radio" name="gender" value="M">Male
+					</label>
+				</div>
+				<div class="radio">
+					<label>
+						<input type="radio" name="gender" value="F">Female
+					</label>
+				</div>
+                <div class="radio">
+					<label>
+						<input type="radio" name="gender" value="N/A">Prefer not to say
+					</label>
+				</div>
 			</div>
 		</div>
 	</fieldset>
 
 	<p>&nbsp;</p>
 
-	<fieldset>
-		<legend>Availability</legend>
-		<div class="form-group row">
-			<label class="col-sm-12 control-label">Are you legally able to be employed in this country?</label>
-			<div class="col-sm-offset-1 col-sm-11">
+	<fieldset class="form-horizontal" >
+		<legend>Prerequisite Courses and GPA</legend>
+        <p>Please enter the GPA into boxes. If a course is transferred, please type "transferred".</p>
+		<div class="form-group">
+			<label class="col-sm-3 control-label">Math 124:</label>
+			<div class="col-sm-9">
+				<input class="form-control" type="text" name="math124">
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-sm-3 control-label">Math 125:</label>
+			<div class="col-sm-9">
+				<input class="form-control" type="text" name="math125">
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-sm-3 control-label">Math 126:</label>
+			<div class="col-sm-9">
+				<input class="form-control" type="text" name="math126">
+			</div>
+		</div>
+        <div class="form-group">
+			<label class="col-sm-3 control-label">CSE 142:</label>
+			<div class="col-sm-9">
+				<input class="form-control" type="text" name="cse142">
+			</div>
+		</div>
+        <div class="form-group">
+			<label class="col-sm-3 control-label">CSE 143:</label>
+			<div class="col-sm-9">
+				<input class="form-control" type="text" name="cse143">
+			</div>
+		</div>
+	</fieldset>
+
+    <p>&nbsp;</p>
+
+    <fieldset class="form-horizontal" >
+		<legend>Additional Course and GPA</legend>
+        <p>Please choose an additional course that best reflect your competitiveness and enter the GPA into the box. </p>
+        <div class="form-group">
+			<label class="col-sm-3 control-label"">Your Choice:</label>
+			<div class="col-sm-9" name="additionalCourse">
 				<div class="radio">
 					<label>
-						<input type="radio" name="legal" value="yes">Yes
+						<input type="radio" name="add" value="math207">Math 207/307
 					</label>
 				</div>
 				<div class="radio">
 					<label>
-						<input type="radio" name="legal" value="no">No
+						<input type="radio" name="add" value="math208">Math 208/308
+					</label>
+				</div>
+                <div class="radio">
+					<label>
+						<input type="radio" name="add" value="cse373">CSE 373
 					</label>
 				</div>
 			</div>
 		</div>
-		<div class="form-group row">
-			<label class="col-sm-12 control-label">What type of position are you seeking? (check all that apply)</label>
-			<div class="col-sm-offset-1 col-sm-11">
-				<div class="checkbox">
-					<label>
-						<input type="checkbox" name="position_pt" value="parttime">
-						Part time
-					</label>
-				</div>
-				<div class="checkbox">
-					<label>
-						<input type="checkbox" name="position_ft" value="fulltime">
-						Full time
-					</label>
-				</div>
-				<div class="checkbox">
-					<label>
-						<input type="checkbox" name="position_sl" value="seasonal">
-						Seasonal
-					</label>
-				</div>
-				<div class="checkbox">
-					<label>
-						<input type="checkbox" name="position_tp" value="temporary">
-						Temporary
-					</label>
-				</div>
+
+		<div class="form-group">
+			<label class="col-sm-3 control-label">GPA:</label>
+			<div class="col-sm-9">
+				<input class="form-control" type="number" name="add_GPA">
 			</div>
 		</div>
-		<div class="form-group row">
-			<label class="col-sm-12 control-label">Hours available</label>
-			<div class="col-sm-12">
-				<table class="table table-bordered">
-					<tr>
-						<td></td>
-						<th>Sun</th>
-						<th>Mon</th>
-						<th>Tue</th>
-						<th>Wed</th>
-						<th>Thu</th>
-						<th>Fri</th>
-						<th>Sat</th>
-					</tr>
-					<tr>
-						<th>From</th>
-						<td><input class="form-control" type="time" name="su_from"></td>
-						<td><input class="form-control" type="time" name="mo_from"></td>
-						<td><input class="form-control" type="time" name="tu_from"></td>
-						<td><input class="form-control" type="time" name="we_from"></td>
-						<td><input class="form-control" type="time" name="th_from"></td>
-						<td><input class="form-control" type="time" name="fr_from"></td>
-						<td><input class="form-control" type="time" name="sa_from"></td>
-					</tr>
-					<tr>
-						<th>Until</th>
-						<td><input class="form-control" type="time" name="su_until"></td>
-						<td><input class="form-control" type="time" name="mo_until"></td>
-						<td><input class="form-control" type="time" name="tu_until"></td>
-						<td><input class="form-control" type="time" name="we_until"></td>
-						<td><input class="form-control" type="time" name="th_until"></td>
-						<td><input class="form-control" type="time" name="fr_until"></td>
-						<td><input class="form-control" type="time" name="sa_until"></td>
-					</tr>
-				</table>
-			</div>
-		</div>
+		
 	</fieldset>
 
 	<p>&nbsp;</p>
@@ -217,16 +165,34 @@
 	<fieldset>
 		<legend>Personal Statement</legend>
 		<div class="form-group">
-			<label class="control-label">Why do you deserve this job?</label>
-			<textarea class="form-control" name="deserve" rows="6"></textarea>
+			<label class="control-label">Why do you choose this major? (300 words maximum)</label>
+			<textarea class="form-control" name="why_choose" rows="6"></textarea>
 		</div>
-		<div class="form-group">
-			<label class="control-label">Describe a recent project</label>
-			<textarea class="form-control" name="project" rows="6"></textarea>
+
+        <div class="form-group">
+			<label class="control-label">What distinguishes you from other applicants? (300 words maximum)</label>
+			<textarea class="form-control" name="distinguish" rows="6"></textarea>
 		</div>
+
+        <div class="form-group">
+			<label class="control-label">Additional explanation and comments (100 words maximum)</label>
+			<textarea class="form-control" name="comments" rows="6"></textarea>
+		</div>
+        
 	</fieldset>
 
 	<p>&nbsp;</p>
+
+    <fieldset>
+		<legend>Before Submitting</legend>
+        <div class="form-group">
+		    <input type="checkbox" name="check" value="honor_program">&nbsp; I want to be considered for CSE department honor program <br>
+            <input type="checkbox" name="check" value="financial_aid">&nbsp; I want to be considered for financial aid program <br>
+            <input type="checkbox" name="check" value="assertion">&nbsp; <strong>I assert everything provided is true and all the essays reflect my original work. Failure of doing so will result in removal of your opportunity of being considered.</strong>
+        </div>
+	</fieldset>
+
+    <p>&nbsp;</p>
 
 	<input class="btn btn-primary btn-lg" type="submit" value="Submit form">
 
