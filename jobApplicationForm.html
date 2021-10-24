@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Job Application</title>
-	<link href="bootstrap.css" rel="stylesheet" type="text/css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application</title>
+    <link href="bootstrap.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 <div class="container">
@@ -14,189 +14,189 @@
 <p>Welcome to the application portal for Computer Science and Engineering! Please complete all parts of the form in order to be considered to be an applicant.</p>
 <p><strong>Good luck on your application!</strong></p>
 
-<form action="test.php" method="post">
+<form action="http://gclass.alexburner.com/formtest.php" method="post">
 
-	<fieldset class="form-horizontal" >
-		<legend>UW Account</legend>
-		<div class="form-group">
-			<label class="col-sm-3 control-label">UW Email:</label>
-			<div class="col-sm-9">
-				<input class="form-control" type="text" name="email">
-			</div>
-		</div>
-		<div class="form-group">
-			<label class="col-sm-3 control-label">Password:</label>
-			<div class="col-sm-9">
-				<input class="form-control" type="password" name="password">
-			</div>
-		</div>
-		<div class="form-group">
-			<label class="col-sm-3 control-label">Repeat Password:</label>
-			<div class="col-sm-9">
-				<input class="form-control" type="password" name="repeat_password">
-			</div>
-		</div>
-	</fieldset>
-
-	<p>&nbsp;</p>
-
-	<fieldset class="form-horizontal" >
-		<legend>Personal Information</legend>
-		<div class="form-group">
-			<label class="col-sm-3 control-label">First Name:</label>
-			<div class="col-sm-9">
-				<input class="form-control" type="text" name="first_name">
-			</div>
-		</div>
+    <fieldset class="form-horizontal" >
+        <legend>UW Account</legend>
         <div class="form-group">
-            <label class="col-sm-3 control-label">Last Name:</label>
-			<div class="col-sm-9">
-				<input class="form-control" type="text" name="last_name">
-			</div>
-		</div>
-		<div class="form-group">
-			<label class="col-sm-3 control-label">Year of Graduation:</label>
-			<div class="col-sm-9">
-				<select class="form-control" name="year_graduation">
-					<option value="" selected="true">Choose a year</option>
-					<option value="23">2023</option>
-					<option value="24">2024</option>
-					<option value="25">2025</option>
-					<option value="26">2026</option>
-				</select>
-			</div>
-		</div>
-		<div class="form-group">
-			<label class="col-sm-3 control-label"">Gender:</label>
-			<div class="col-sm-9" name="gender_select">
-				<div class="radio">
-					<label>
-						<input type="radio" name="gender" value="M">Male
-					</label>
-				</div>
-				<div class="radio">
-					<label>
-						<input type="radio" name="gender" value="F">Female
-					</label>
-				</div>
-                <div class="radio">
-					<label>
-						<input type="radio" name="gender" value="N/A">Prefer not to say
-					</label>
-				</div>
-			</div>
-		</div>
-	</fieldset>
-
-	<p>&nbsp;</p>
-
-	<fieldset class="form-horizontal" >
-		<legend>Prerequisite Courses and GPA</legend>
-        <p>Please enter the GPA into boxes. If a course is transferred, please type "transferred".</p>
-		<div class="form-group">
-			<label class="col-sm-3 control-label">Math 124:</label>
-			<div class="col-sm-9">
-				<input class="form-control" type="text" name="math124">
-			</div>
-		</div>
-		<div class="form-group">
-			<label class="col-sm-3 control-label">Math 125:</label>
-			<div class="col-sm-9">
-				<input class="form-control" type="text" name="math125">
-			</div>
-		</div>
-		<div class="form-group">
-			<label class="col-sm-3 control-label">Math 126:</label>
-			<div class="col-sm-9">
-				<input class="form-control" type="text" name="math126">
-			</div>
-		</div>
+            <label class="col-sm-3 control-label">UW Email:</label>
+            <div class="col-sm-9">
+                <input class="form-control" type="text" name="email">
+            </div>
+        </div>
         <div class="form-group">
-			<label class="col-sm-3 control-label">CSE 142:</label>
-			<div class="col-sm-9">
-				<input class="form-control" type="text" name="cse142">
-			</div>
-		</div>
+            <label class="col-sm-3 control-label">Password:</label>
+            <div class="col-sm-9">
+                <input class="form-control" type="password" name="password">
+            </div>
+        </div>
         <div class="form-group">
-			<label class="col-sm-3 control-label">CSE 143:</label>
-			<div class="col-sm-9">
-				<input class="form-control" type="text" name="cse143">
-			</div>
-		</div>
-	</fieldset>
+            <label class="col-sm-3 control-label">Repeat Password:</label>
+            <div class="col-sm-9">
+                <input class="form-control" type="password" name="repeat_password">
+            </div>
+        </div>
+    </fieldset>
 
     <p>&nbsp;</p>
 
     <fieldset class="form-horizontal" >
-		<legend>Additional Course and GPA</legend>
-        <p>Please choose an additional course that best reflect your competitiveness and enter the GPA into the box. </p>
+        <legend>Personal Information</legend>
         <div class="form-group">
-			<label class="col-sm-3 control-label"">Your Choice:</label>
-			<div class="col-sm-9" name="additionalCourse">
-				<div class="radio">
-					<label>
-						<input type="radio" name="add" value="math207">Math 207/307
-					</label>
-				</div>
-				<div class="radio">
-					<label>
-						<input type="radio" name="add" value="math208">Math 208/308
-					</label>
-				</div>
-                <div class="radio">
-					<label>
-						<input type="radio" name="add" value="cse373">CSE 373
-					</label>
-				</div>
-			</div>
-		</div>
-
-		<div class="form-group">
-			<label class="col-sm-3 control-label">GPA:</label>
-			<div class="col-sm-9">
-				<input class="form-control" type="number" name="add_GPA">
-			</div>
-		</div>
-		
-	</fieldset>
-
-	<p>&nbsp;</p>
-
-	<fieldset>
-		<legend>Personal Statement</legend>
-		<div class="form-group">
-			<label class="control-label">Why do you choose this major? (300 words maximum)</label>
-			<textarea class="form-control" name="why_choose" rows="6"></textarea>
-		</div>
-
-        <div class="form-group">
-			<label class="control-label">What distinguishes you from other applicants? (300 words maximum)</label>
-			<textarea class="form-control" name="distinguish" rows="6"></textarea>
-		</div>
-
-        <div class="form-group">
-			<label class="control-label">Additional explanation and comments (100 words maximum)</label>
-			<textarea class="form-control" name="comments" rows="6"></textarea>
-		</div>
-        
-	</fieldset>
-
-	<p>&nbsp;</p>
-
-    <fieldset>
-		<legend>Before Submitting</legend>
-        <div class="form-group">
-		    <input type="checkbox" name="check" value="honor_program">&nbsp; I want to be considered for CSE department honor program <br>
-            <input type="checkbox" name="check" value="financial_aid">&nbsp; I want to be considered for financial aid program <br>
-            <input type="checkbox" name="check" value="assertion">&nbsp; <strong>I assert everything provided is true and all the essays reflect my original work. Failure of doing so will result in removal of your opportunity of being considered.</strong>
+            <label class="col-sm-3 control-label">First Name:</label>
+            <div class="col-sm-9">
+                <input class="form-control" type="text" name="first_name">
+            </div>
         </div>
-	</fieldset>
+        <div class="form-group">
+            <label class="col-sm-3 control-label">Last Name:</label>
+            <div class="col-sm-9">
+                <input class="form-control" type="text" name="last_name">
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-3 control-label">Year of Graduation:</label>
+            <div class="col-sm-9">
+                <select class="form-control" name="year_graduation">
+                    <option value="" selected="true">Choose a year</option>
+                    <option value="23">2023</option>
+                    <option value="24">2024</option>
+                    <option value="25">2025</option>
+                    <option value="26">2026</option>
+                </select>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-3 control-label"">Gender:</label>
+            <div class="col-sm-9" name="gender_select">
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="gender" value="M">Male
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="gender" value="F">Female
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="gender" value="N/A">Prefer not to say
+                    </label>
+                </div>
+            </div>
+        </div>
+    </fieldset>
 
     <p>&nbsp;</p>
 
-	<input class="btn btn-primary btn-lg" type="submit" value="Submit form">
+    <fieldset class="form-horizontal" >
+        <legend>Prerequisite Courses and GPA</legend>
+        <p>Please enter the GPA into boxes. If a course is transferred, please type "transferred".</p>
+        <div class="form-group">
+            <label class="col-sm-3 control-label">Math 124:</label>
+            <div class="col-sm-9">
+                <input class="form-control" type="text" name="math124">
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-3 control-label">Math 125:</label>
+            <div class="col-sm-9">
+                <input class="form-control" type="text" name="math125">
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-3 control-label">Math 126:</label>
+            <div class="col-sm-9">
+                <input class="form-control" type="text" name="math126">
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-3 control-label">CSE 142:</label>
+            <div class="col-sm-9">
+                <input class="form-control" type="text" name="cse142">
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-3 control-label">CSE 143:</label>
+            <div class="col-sm-9">
+                <input class="form-control" type="text" name="cse143">
+            </div>
+        </div>
+    </fieldset>
 
-	<p>&nbsp;</p>
+    <p>&nbsp;</p>
+
+    <fieldset class="form-horizontal" >
+        <legend>Additional Course and GPA</legend>
+        <p>Please choose an additional course that best reflect your competitiveness and enter the GPA into the box. </p>
+        <div class="form-group">
+            <label class="col-sm-3 control-label"">Your Choice:</label>
+            <div class="col-sm-9" name="additionalCourse">
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="add" value="math207">Math 207/307
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="add" value="math208">Math 208/308
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="add" value="cse373">CSE 373
+                    </label>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-sm-3 control-label">GPA:</label>
+            <div class="col-sm-9">
+                <input class="form-control" type="number" name="add_GPA">
+            </div>
+        </div>
+        
+    </fieldset>
+
+    <p>&nbsp;</p>
+
+    <fieldset>
+        <legend>Personal Statement</legend>
+        <div class="form-group">
+            <label class="control-label">Why do you choose this major? (300 words maximum)</label>
+            <textarea class="form-control" name="why_choose" rows="6"></textarea>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label">What distinguishes you from other applicants? (300 words maximum)</label>
+            <textarea class="form-control" name="distinguish" rows="6"></textarea>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label">Additional explanation and comments (100 words maximum)</label>
+            <textarea class="form-control" name="comments" rows="6"></textarea>
+        </div>
+        
+    </fieldset>
+
+    <p>&nbsp;</p>
+
+    <fieldset>
+        <legend>Before Submitting</legend>
+        <div class="form-group">
+            <input type="checkbox" name="check" value="honor_program">&nbsp; I want to be considered for CSE department honor program <br>
+            <input type="checkbox" name="check" value="financial_aid">&nbsp; I want to be considered for financial aid program <br>
+            <input type="checkbox" name="check" value="assertion">&nbsp; <strong>I assert everything provided is true and all the essays reflect my original work. Failure of doing so will result in removal of your opportunity of being considered.</strong>
+        </div>
+    </fieldset>
+
+    <p>&nbsp;</p>
+
+    <input class="btn btn-primary btn-lg" type="submit" value="Submit form">
+
+    <p>&nbsp;</p>
 
 </form>
 </div><!-- close .container -->
